@@ -1,0 +1,11 @@
+
+body { 
+	background-color: wheat;
+}
+
+p { 
+	margin: 80px;
+	font-family: courier;
+	font-size: 150%;
+	color: maroon; 
+}
