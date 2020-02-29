@@ -1,0 +1,144 @@
+
+body { 
+	background-color: wheat;
+}
+
+h1 {
+	margin: 50px;
+	font-family: georgia; 
+	font-weight: bold;
+	color: orangered; 
+	font-size: 200%;
+	text-align: center;
+}
+
+h2 {
+	font-family: georgia; color: maroon;
+	font-weight: bold;
+	font-size: 300%;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Lobster', cursive;	
+	font-size: 750%;
+	text-align: center;
+	border: 3px solid black;
+	padding: 10px;
+	background-color: darksalmon;
+}
+
+h4 {
+	font-family: georgia;
+	font-size: 175%;
+	text-align: center;
+}
+
+h6 {
+	margin: 50px;
+	font-family: georgia; 
+	font-weight: bold;
+	color: darkgreen; 
+	font-size: 200%;
+	text-align: left;
+}
+
+
+p { 
+	margin: 50px;
+	font-family: courier;
+	font-size: 120%; 
+}
+
+a {
+	color: orangered;
+	font-weight: bold;
+}
+
+.left {
+	float: left;
+	padding: 0 20px 20px 0;
+	border: none;
+	box-shadow: none;
+}
+
+img {
+	border: 20px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+  background-color: darksalmon;
+  font-family: georgia;
+  color: black;
+  padding: 15px;
+  font-size: 30px;
+  border: 1px solid black;
+  outline: none;
+  width: 75%
+
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 100px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: darksalmon}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn:hover, .dropdown:hover .btn {
+  background-color: darksalmon;
+}
+
+.regular {
+	float: none;
+	border: none;
+	box-shadow: none;
+}
+
+.pill {
+  background-color: maroon;
+  border: none;
+  color: wheat;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.footer {
+	position: bottom;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	background-color: darksalmon;
+   	padding: 1px;
+	font-family: georgia;	
+   	color: black;
+   	text-align: center;
+   	border: 1px solid black;
+
+
+}

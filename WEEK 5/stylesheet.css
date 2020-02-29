@@ -1,0 +1,20 @@
+
+body { 
+	background-color: wheat;
+}
+
+p { 
+	margin: 80px;
+	font-family: courier;
+	font-size: 150%;
+	color: maroon; 
+}
+
+h1 {
+	margin: 50px;
+	font-family: georgia; 
+	font-weight: bold;
+	color: darkgreen; 
+	font-size: 200%;
+	text-align: left;
+}
