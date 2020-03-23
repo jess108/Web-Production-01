@@ -1,0 +1,41 @@
+body { 
+	background-color: wheat;
+}
+
+h3 {
+	font-family: 'Lobster', cursive;	
+	font-size: 750%;
+	text-align: center;
+	border: 3px solid black;
+	padding: 10px;
+	background-color: darksalmon;
+}
+
+p { 
+	margin: 50px;
+	font-family: courier;
+	font-size: 120%; 
+}
+
+a {
+	color: orangered;
+	font-weight: bold;
+}
+
+img {
+	border: 20px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+	position: bottom;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	background-color: darksalmon;
+   	padding: 1px;
+	font-family: georgia;	
+   	color: black;
+   	text-align: center;
+   	border: 1px solid black;
+}
