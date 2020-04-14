@@ -1,0 +1,32 @@
+
+body {
+	background-color: #FDEDEC;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+p { 
+	margin: 75px;
+	position: relative;
+	font-family: georgia;
+	font-size: 150%;
+	color: black; 
+	line-height: 1.7;
+}
+
+h1 {
+	margin: 40px;
+	font-family: georgia; 
+	font-weight: bold;
+	color: black; 
+	font-size: 200%;
+	text-align: left;
+}
+
+h2 {
+
+	margin: 40px;
+	font-family: dancing script;
+	font-size: 250%;
+	color: black;
+}
