@@ -1,40 +1,59 @@
 
 body {
 	background-color: #FDEDEC;
-	margin-left: 90px;
-	margin-right: 90px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 p { 
-	margin: 75px;
+	margin: 60px;
 	position: relative;
 	font-family: georgia;
-	font-size: 150%;
+	font-size: 30px;
 	color: black; 
-	line-height: 1.7;
+	line-height: 1.5;
 }
 
 h1 {
-	margin: 40px;
+	margin: 30px;
 	font-family: georgia; 
 	font-weight: bold;
 	color: black; 
-	font-size: 200%;
+	font-size: 50px;
 	text-align: left;
 }
 
 h2 {
-
-	margin: 40px;
+	margin: 30px;
 	font-family: dancing script;
-	font-size: 250%;
+	font-size: 50px;
 	color: black;
 }
 
-@media only screen 
-	and (min-device-width: 375px) 
-	and (max-device-width: 812px)
-	and (-webkit-min-device-pixel-ratio: 2)
-	and (orientation: portrait) 
+@media screen
+	and (max-device-height: 800px)
+	and (min-device-width: 600px) 
+	and (orientation: portrait) {
+
+		body {
+			margin-left: 10px;
+			margin-right: 10px;
+
+		}
+
+		p {
+			font-size: 15px;
+			line-height: 1.5;
+			margin: 10px}
+
+		h1 {
+			font-size: 25px;
+			margin: 0px;
+		}	
+
+		h2 {
+			font-size: 25px}	
+
+	}
 
 	
