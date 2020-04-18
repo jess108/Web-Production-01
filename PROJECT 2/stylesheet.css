@@ -31,7 +31,7 @@ h2 {
 }
 
 @media screen
-	and (max-device-height: 800px)
+	and (max-device-height: 815px)
 	and (min-device-width: 320px) 
 	and (orientation: portrait) {
 
