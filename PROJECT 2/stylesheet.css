@@ -32,10 +32,11 @@ h2 {
 
 @media screen
 	and (max-device-height: 800px)
-	and (min-device-width: 600px) 
+	and (min-device-width: 320px) 
 	and (orientation: portrait) {
 
 		body {
+			background-color: #B7DEDE;
 			margin-left: 10px;
 			margin-right: 10px;
 
