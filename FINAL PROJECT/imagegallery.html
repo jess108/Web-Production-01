@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head> 
+
+
+		<title>Image Gallery</title>
+
+		<meta charset="UTF-8">
+
+   		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!--   jquery hosted library   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <style>
+    	{box-sizing: border-box}
+    	.mySlides {display: none}
+    	img {vertical-align: middle;}
+
+    	.slideshow-container {
+    		max-width: 1000px;
+    		position: relative;
+    		margin: auto;
+    	}
+
+    	.prev, .next {
+    		cursor: pointer;
+    		position: absolute;
+    		top: 50%;
+    		width: auto;
+    		padding: 16px;
+    		margin-top: -22px;
+    		color: darkgreen;
+    		font-weight: bold;
+    		font-size: 18px;
+    		transition: 0.6s ease;
+    		border-radius: 0 3px 3px 0;
+    		user-select: none;
+    	}
+
+    	.next {
+    		right: 0;
+    		border-radius: 3px 0 0 3px;
+    	}
+
+    	.prev:hover, .next:hover {
+    		background-color: white;
+    	}
+
+    	.text {
+    		color: black;
+    		font-size: 20px;
+    		font-weight: bold;
+    		padding: 8px 12px;
+    		position: absolute;
+    		bottom: 10px;
+    		width: 100%;
+    		text-align: center;
+    	}
+
+    	.numbertext {
+    		color: black;
+    		font-size: 12px;
+    		padding: 8px 12px;
+    		position: absolute;
+    		top: 0;
+    	}
+
+    	.dot {
+  			cursor: pointer;
+  			height: 15px;
+  			width: 15px;
+  			margin: 0 2px;
+  			background-color: #bbb;
+  			border-radius: 50%;
+  			display: inline-block;
+  			transition: background-color 0.6s ease;
+		}
+
+		.active, .dot:hover {
+  			background-color: #717171;
+		}
+
+		.fade {
+  			-webkit-animation-name: fade;
+  			-webkit-animation-duration: 1.5s;
+  			animation-name: fade;
+  			animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+  			from {opacity: .4} 
+  			to {opacity: 1}
+		}
+
+		@keyframes fade {
+  			from {opacity: .4} 
+  			to {opacity: 1}
+		}
+
+		@media only screen and (max-width: 300px) {
+  			.prev, .next,.text {font-size: 11px}
+		}
+
+</style>
+
+  </head>
+
+  <body>
+
+				<h3>Jessica Ortiz</h3>
+				<H2>WEB PRODUCTION IMAGE GALLERY</H2>
+
+	<div class="slideshow-container">
+		
+
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 20</div>
+			<img scr="images/closedsign.jpg" style="width: 100%">
+			<div class="text">Closed For Business sign</div>
+		</div>	
+
+		<div class="mySlides fade">	
+			<div class="numbertext">2 / 20</div>
+			<img src="images/emptypark.jpg" style="width: 100%"> 
+			<div class="text">Stacked chairs in an empty park</div>
+		</div>	
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 20</div>
+			<img scr="images/emptystreet.jpg" style="width: 100%"> 
+			<div class="text">Empty streets</div>
+		</div>	
+	
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 20</div>
+			<img src="images/essentialworkers.jpg" style="width: 100%">
+			<div class="text">Thank you, Essential Workers</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 20</div>
+			<img src="images/fempedestrian.jpg" style="width: 100%">
+			<div class="text">Pedestrian with face mask</div>
+		</div> 	
+
+		<div class="mySlides fade">
+			<div class="numbertext">6 / 20</div>
+			<img src="images/fuckcovid19.jpg" style="width: 100%">
+			<div class="text">Store front graffiti</div>
+		</div> 
+
+		<div class="mySlides fade">
+			<div class="numbertext">7 / 20</div>
+			<img src="images/glove.jpg" style="width: 100%">
+			<div class="text">Discarded glove</div> 
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">8 / 20</div>	
+			<img src="images/inconvenience.jpg" style="width: 100%">
+			<div class="text">Sorry For The Inconvenience</div>
+		</div>	 
+
+		<div class="mySlides fade">
+			<div class="numbertext">9 / 20</div>
+			<img src="images/kidsign.jpg" style="width: 100%">
+			<div class="text">Kid's home made sign</div>
+		</div>	 
+
+		<div class="mySlides fade">
+			<div class="numbertext">10 / 20</div>
+			<img src="images/manonline.jpg" style="width: 100%">
+			<div class="text">Waiting in line to enter Duane Reade</div>
+		</div>	 
+
+		<div class="mySlides fade">
+			<div class="numbertext">11 / 20</div>
+			<img src="images/noentry.jpg" style="width: 100%">
+			<div class="text">No Entry sign</div> 
+		</div>	
+
+        <div class="mySlides fade">
+        	<div class="numbertext">12 / 20</div>
+        	<img src="images/playground.jpg" style="width: 100%">
+        	<div class="text">Vacated playground</div>
+        </div>	 
+
+        <div class="mySlides fade">
+        	<div class="numbertext">13 / 20</div>
+        	<img src="images/redawnings.jpg" style="width: 100%">
+        	<div class="text">Closed stores with red awnings</div>
+        </div>	 
+
+         <div class="mySlides fade">
+         	<div class="numbertext">14 / 20</div>
+         	<img src="images/seeyousoon.jpg" style="width: 100%">
+         	<div class="text">See You Soon sign</div>
+         </div>	 
+
+         <div class="mySlides fade">
+         	<div class="numbertext">15 / 20</div>
+        	<img src="images/storefronts.jpg" style="width: 100%"> 
+        	<div class="text">Shuttered store fronts</div>
+        </div>	
+
+        <div class="mySlides fade">
+        	<div class="numbertext">16 / 20</div>
+        	<img src="images/cheatdeath.jpg" style="width: 100%">
+        	<div class="text">Grafitti in Long Island City</div>
+        </div>
+        
+        <div class="mySlides fade">
+        	<div class="numbertext">17 / 20</div>
+        	<img src="images/forrent.jpg" style="width: 100%">
+        	<div class="text">Subway store closed in Sunnyside</div>
+        </div>
+        
+        <div class="mySlides fade">
+        	<div class="numbertext">18 / 20</div>
+        	<img src="images/jameson.jpg" style="width: 100%">
+        	<div class="text">Liquor store is an essential business</div>
+        </div>
+        
+        <div class="mySlides fade">
+        	<div class="numbertext">19 / 20</div>
+        	<img src="images/sunnysidestrong.jpg" style="width: 100%">
+        	<div class="text">Thoughts and prayers sent out</div>
+        </div>
+        
+        <div class="mySlides fade">
+        	<div class="numbertext">20 / 20</div>
+        	<img src="images/tapedsign.jpg" style="width: 100%">
+        	<div class="text">Masking tape coming in handy</div>
+        </div>
+        	
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+	</body>			
+	</html>
