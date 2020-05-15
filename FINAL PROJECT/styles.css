@@ -15,13 +15,13 @@ h1 {
 h2 {
 	font-family: georgia; color: maroon;
 	font-weight: bold;
-	font-size: 300%;
+	font-size: 400%;
 	text-align: center;
 }
 
 h3 {
 	font-family: 'Lobster', cursive;	
-	font-size: 750%;
+	font-size: 500%;
 	text-align: center;
 	border: 3px solid black;
 	padding: 10px;
