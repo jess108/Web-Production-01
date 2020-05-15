@@ -15,13 +15,13 @@ h1 {
 h2 {
 	font-family: georgia; color: maroon;
 	font-weight: bold;
-	font-size: 300%;
+	font-size: 350%;
 	text-align: center;
 }
 
 h3 {
 	font-family: 'Lobster', cursive;	
-	font-size: 750%;
+	font-size: 500%;
 	text-align: center;
 	border: 3px solid black;
 	padding: 10px;
@@ -67,46 +67,22 @@ img {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn {
-  background-color: darksalmon;
-  font-family: georgia;
-  color: black;
-  padding: 15px;
-  font-size: 30px;
-  border: 1px solid black;
-  outline: none;
-  width: 75%
-
+.navbar {
+	overflow: hidden;
+	background-color: wheat;
 }
 
-.dropdown {
-  position: absolute;
-  display: inline-block;
+.navbar a {
+	float: left;
+	font-size: 20px;
+	color: darkgreen;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 100px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: darksalmon}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.btn:hover, .dropdown:hover .btn {
-  background-color: darksalmon;
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: white;
 }
 
 .regular {
@@ -115,18 +91,6 @@ img {
 	box-shadow: none;
 }
 
-.pill {
-  background-color: maroon;
-  border: none;
-  color: wheat;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
-}
 
 .footer {
 	position: bottom;
